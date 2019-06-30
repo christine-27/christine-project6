@@ -408,7 +408,7 @@ input[type="button"] {
 	}
 	.navMenu {
 	     position: absolute;
-	    top: 146px;
+	    top: 88px;
 	    background-color: #000000d4;
 	    z-index: 999;
     	width: 80%;
