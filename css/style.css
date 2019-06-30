@@ -25,8 +25,8 @@ nav.navigation {
     padding: 20px 0;
 }
 img.logo {
-     width: 200px;
-    height: auto;
+    width: auto;
+    height: 115px;
 }
 button.nav-toggle {
     display: none;
@@ -48,7 +48,7 @@ ul.menu.navMenu {
 }
 header h1 {
     text-align: right;
-    font-family: Monotype Corsiva;
+    font-family: Aurella;
     font-size: 5vw;
 }
 .headTitle {
@@ -369,7 +369,7 @@ input[type="button"] {
 	.nav-toggle{
 	    display: block;
 	    float: right;
-	    top: 24px;
+	    top: 33px;
 	    position: relative;
 	    padding: 10px;
 	    border: none;
@@ -416,6 +416,10 @@ input[type="button"] {
 	header ul li a {
 	    text-decoration: none;
 	    color: #fff;
+	}
+	img.logo {
+	    width: auto;
+	    height: 90px;
 	}
 	nav.navigation {
 		text-align: left;
@@ -487,7 +491,7 @@ input[type="button"] {
 	    width: 100%;
 	}
 }
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1024px) {
    	.headTitle {
     	height: 37vh;
  	}
